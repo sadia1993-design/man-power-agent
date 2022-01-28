@@ -60,7 +60,7 @@
                ?>
          <!--  sectors -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/sectors/sectors.php" class="nav-link">
+           <a href="<?= $serverName; ?>/sectors/sectors.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Sectors</p>
            </a>
