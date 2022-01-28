@@ -1,6 +1,6 @@
  <?php
     @session_start();
-    $serverName = 'http://'.$_SERVER['SERVER_NAME'].'/man_power_agent';
+    $serverName = 'https://'.$_SERVER['SERVER_NAME'];
     
     if (!isset($_SESSION['name'])) {
         header("location: $serverName/index.php");
