@@ -1,11 +1,13 @@
 <?php
-
-$page = "Users";
-require_once("../header.php");
 @session_start();
 if (!isset($_SESSION['name'])) {
     header("location: $serverName/index.php");
 }
+
+$page = "Users";
+require_once("../header.php");
+
+
 require_once("../sidebar.php");
 require_once("../db_config.php");
 ?>
