@@ -1,6 +1,6 @@
 <?php
 
-$serverName = 'http://' . $_SERVER['SERVER_NAME'] . '/man_power_agent';
+$serverName = 'https://' . $_SERVER['SERVER_NAME'] ;
 require("functions.php");
 ?>
 <!DOCTYPE html>
