@@ -34,7 +34,7 @@
        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
        <li class="nav-item">
-           <a href="http://localhost/man_power_agent/dashboard.php" class="nav-link">
+           <a href="<?= $serverName; ?>/dashboard.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Dashboard</p>
            </a>
