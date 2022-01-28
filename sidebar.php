@@ -73,7 +73,7 @@
                ?>
          <!--  sites -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/sites/sites.php" class="nav-link">
+           <a href="<?= $serverName; ?>/sites/sites.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Sites</p>
            </a>
@@ -85,7 +85,7 @@
 
          <!--  Months -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/month/month.php" class="nav-link">
+           <a href="<?= $serverName; ?>/month/month.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Months</p>
            </a>
@@ -97,7 +97,7 @@
         <?php  if ($roleRow['add_worker_edit'] == '1'  || $roleRow['add_worker_delete'] == '1') { ?>
          <!--  Worker Add -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/add_worker/add_worker.php" class="nav-link">
+           <a href="<?= $serverName; ?>/add_worker/add_worker.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Worker Add</p>
            </a>
@@ -107,7 +107,7 @@
          <?php  if ($roleRow['worker_assign_edit'] == '1'  || $roleRow['worker_assign_delete'] == '1') { ?>
          <!--  Worker Assign -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/worker_assign/worker_assign.php" class="nav-link">
+           <a href="<?= $serverName; ?>/worker_assign/worker_assign.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Worker Assign</p>
            </a>
@@ -117,7 +117,7 @@
          <?php  if ($roleRow['advance_edit'] == '1'  || $roleRow['advance_delete'] == '1') { ?>         
          <!--  Advance -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/advance/advance.php" class="nav-link">
+           <a href="<?= $serverName; ?>/advance/advance.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Advance</p>
            </a>
@@ -127,7 +127,7 @@
          <?php  if ($roleRow['worker_attendance_edit'] == '1'  || $roleRow['worker_attendance_delete'] == '1') { ?>
          <!--  Worker Attendance -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/worker_attendance/worker_attendance.php" class="nav-link">
+           <a href="<?= $serverName; ?>/worker_attendance/worker_attendance.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Worker Attendance</p>
            </a>
@@ -137,7 +137,7 @@
          <?php  if ($roleRow['invoice_edit'] == '1'  || $roleRow['invoice_delete'] == '1') { ?>
          <!--  Invoice -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/invoice/invoice.php" class="nav-link">
+           <a href="<?= $serverName; ?>/invoice/invoice.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Invoice</p>
            </a>
@@ -147,7 +147,7 @@
          <?php  if ($roleRow['payments_edit'] == '1'  || $roleRow['payments_delete'] == '1') { ?>
           <!--  Payments -->
           <li class="nav-item">
-           <a href="http://localhost/man_power_agent/payments/payments.php" class="nav-link">
+           <a href="<?= $serverName; ?>/payments/payments.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Payments</p>
            </a>
@@ -157,7 +157,7 @@
          <?php  if ($roleRow['modules_edit'] == '1'  || $roleRow['modules_delete'] == '1') { ?>
          <!--  Modules -->
          <li class="nav-item">
-           <a href="http://localhost/man_power_agent/modules/modules.php" class="nav-link">
+           <a href="<?= $serverName; ?>/modules/modules.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>Modules</p>
            </a>
@@ -167,7 +167,7 @@
          <?php  if ($roleRow['user_lists_edit'] == '1'  || $roleRow['user_lists_delete'] == '1') { ?>
           <!--  User Lists -->
           <li class="nav-item">
-           <a href="http://localhost/man_power_agent/user_lists/user_lists.php" class="nav-link">
+           <a href="<?= $serverName; ?>/user_lists/user_lists.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
              <p>User Lists</p>
            </a>
