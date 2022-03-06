@@ -75,8 +75,8 @@ if (isset($_POST['user'])) {
                             <h4 style="color:#fff;text-align: center;">Login Form</h4>
                         </div>
                         <form method="post" action="">
-                            <input class="form-control" type="email" name="user" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="passwd" placeholder="Password" required>
+                            <input class="form-control" type="email" name="user" placeholder="E-mail Address (admin@gmail.com)" required>
+                            <input class="form-control" type="password" name="passwd" placeholder="Password (12345)" required>
                             <div class="form-button text-center">
                                 <button id="submit" type="submit" class="ibtn">Login</button>
                             </div>
